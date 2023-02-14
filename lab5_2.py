@@ -1,0 +1,19 @@
+#pass
+students=[
+    [
+        "Yerasyl",
+        [5,4,5,5,4,5]
+    ],
+    [
+        "Alikhan",
+        [3,3,4,3,4,5]
+    ],
+    [
+        "Abylai",
+        [3,4,5,3,3,3,3]
+    ]
+]
+values=dict(students)
+name=input()
+
+print(values[name])
